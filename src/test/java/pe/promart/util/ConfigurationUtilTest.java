@@ -12,7 +12,7 @@ public class ConfigurationUtilTest {
     public void buildURL() {
         String expectedValue = "https://reto-intercorp-199e9.firebaseio.com";
         String input = "reto-intercorp-199e9";
-        String actualValue = ConfigurationUtil.buildURL(input);
+        String actualValue = ConfigurationUtil.buildUrl(input);
         assertEquals(actualValue, expectedValue);
     }
 }
