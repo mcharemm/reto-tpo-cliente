@@ -8,7 +8,7 @@ import java.io.IOException;
 
 @SpringBootApplication
 public class Application {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(Application.class, args);
     }
 }
