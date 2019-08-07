@@ -42,7 +42,7 @@ public class FirebaseConfiguration {
 
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                    .setDatabaseUrl(ConfigurationUtil.buildURL(dbname))
+                    .setDatabaseUrl(ConfigurationUtil.buildUrl(dbname))
                     .build();
 
             if (FirebaseApp.getApps().isEmpty()){

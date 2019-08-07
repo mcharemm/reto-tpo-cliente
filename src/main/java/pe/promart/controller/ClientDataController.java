@@ -24,6 +24,6 @@ public class ClientDataController {
 
     @GetMapping("/listclientes")
     public List<infoClient> printClientsInfoList(){
-        return service.getClients();
+        return service.retrieveClients();
     }
 }

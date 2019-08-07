@@ -15,7 +15,6 @@ public class ClientDataRepositoryImplementation implements ClientDataRepository 
 
     @Override
     public Client pushClient(Client client) {
-        //ClientDB clientDB = new ClientDB(client.getId(),client.getName(),client.getLastName(),client.getAge(),client.getBirthDate().toString());
         FirebaseConfiguration configuration = new FirebaseConfiguration("reto-intercorp-199e9");
         if (client != null) {
             DatabaseReference databaseReference = configuration.getFirebaseDatabase().getReference("/");
