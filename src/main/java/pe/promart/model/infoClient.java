@@ -1,9 +1,13 @@
 package pe.promart.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class infoClient {
+
     Client client;
+    @DateTimeFormat( pattern = "yyyy-MM-dd")
     Date possibleDeathDate;
 
     public infoClient(Client client, Date possibleDeathDate){

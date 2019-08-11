@@ -18,12 +18,17 @@ public class ClientDataServiceImplementation implements ClientDataService {
 
     @Override
     public Client createClient(Client client){
-        return clientRepository.pushClient(client);
+        return clientRepository.push(client);
     }
 
     @Override
     public List<infoClient> retrieveClients(){
-        List<Client> allClients = clientRepository.getClients();
+        List<Client> allClients = clientRepository.findAll();
+
+        if (allClients.size()==0){
+            return null;
+        }
+
         List<infoClient> allClientsInfo = allClients.stream()
                 .map(IncludePossibleDeathDate::includePossibleDeathDate)
                 .collect(Collectors.toList());

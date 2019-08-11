@@ -1,30 +1,51 @@
 package pe.promart.model;
 
+import com.github.fabiomaffioletti.firebase.document.FirebaseDocument;
+import com.github.fabiomaffioletti.firebase.document.FirebaseId;
 import org.springframework.format.annotation.DateTimeFormat;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import java.io.Serializable;
+import java.nio.charset.Charset;
 import java.util.Date;
 
-public class Client {
-    private Long id;
+@FirebaseDocument("/clients")
+@Entity
+public class Client implements Serializable {
+
+    private static final Charset UTF_8 = Charset.forName("UTF-8");
+    private static final Charset ISO = Charset.forName("ISO-8859-1");
+
+    private static final long serialVersionUID = 1L;
+    @FirebaseId
+    @Id
+    private String id;
     private String name;
     private String lastName;
     private int age;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birthDate;
 
-    public Client(Long id, String name, String lastName, int age, Date birthDate) {
+    public Client() {
+    }
+
+    public Client(String id, String name, String lastName, int age, Date birthDate) {
+        String formattedName = new String(name.getBytes(ISO), UTF_8);
+        String formattedLastName = new String(lastName.getBytes(ISO), UTF_8);
         this.id = id;
-        this.name = name;
-        this.lastName = lastName;
+        this.name = formattedName;
+        this.lastName = formattedLastName;
         this.age = age;
         this.birthDate = birthDate;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

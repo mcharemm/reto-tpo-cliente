@@ -1,10 +1,9 @@
 package pe.promart.repository;
 
+import com.github.fabiomaffioletti.firebase.repository.DefaultFirebaseRealtimeDatabaseRepository;
+import org.springframework.stereotype.Repository;
 import pe.promart.model.Client;
 
-import java.util.List;
-
-public interface ClientDataRepository {
-    Client pushClient(Client client);
-    List<Client> getClients();
+@Repository
+public class ClientDataRepository extends DefaultFirebaseRealtimeDatabaseRepository<Client, String> {
 }

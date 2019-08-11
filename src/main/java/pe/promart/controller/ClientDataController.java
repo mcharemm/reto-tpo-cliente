@@ -9,6 +9,7 @@ import pe.promart.service.ClientDataService;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v1/cliente")
 public class ClientDataController {
@@ -23,7 +24,6 @@ public class ClientDataController {
     }
 
     @GetMapping("/listclientes")
-    public List<infoClient> printClientsInfoList(){
-        return service.retrieveClients();
-    }
+    @ResponseStatus(HttpStatus.OK)
+    public List<infoClient> printClientsInfoList(){ return service.retrieveClients(); }
 }
