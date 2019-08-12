@@ -1,11 +1,15 @@
 # reto-tpo-cliente
 
+---
+
 ## API SERVICE CLIENTES
 #### Desarrollado en Java con Spring Boot
 
 ---
 
 ### _FUNCIONALIDAD_
+
+---
 
 El servicio tiene las siguientes funcionalidades:
 
@@ -20,6 +24,8 @@ El servicio tiene las siguientes funcionalidades:
 ---
 
 (1) CREAR CLIENTE
+
+---
 
 `/api/v1/cliente/creacliente`
 
@@ -49,6 +55,8 @@ El servicio tiene las siguientes funcionalidades:
 
 (2) CONSULTAR CLIENTES
 
+---
+
 `/api/v1/cliente/listclientes`
 
 - Metodo
@@ -72,6 +80,8 @@ El servicio tiene las siguientes funcionalidades:
 ---
 
 (3) CONSULTAR KPI DE CLIENTES
+
+---
 
 `/api/v1/statistic/kpideclientes`
 
