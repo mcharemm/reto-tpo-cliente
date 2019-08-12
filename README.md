@@ -1,9 +1,15 @@
 # reto-tpo-cliente
 
+---
+
 ## API SERVICE CLIENTES
 #### Desarrollado en Java con Spring Boot
 
-###_FUNCIONALIDAD_
+---
+
+### _FUNCIONALIDAD_
+
+---
 
 El servicio tiene las siguientes funcionalidades:
 
@@ -11,9 +17,15 @@ El servicio tiene las siguientes funcionalidades:
 * **Consultar Clientes:** Hacer la consulta de todos los clientes que existen en la base de datos Firebase con toda la información, incluyendo además la fecha probable de muerte para cada uno de ellos.
 * **Consultar KPI de Clientes:** Presenta la edad promedio de todos los clientes que se encuentran en la base de datos y la desviación estándar de estas edades.
 
+---
+
 ### _ENDPOINTS_
 
-(1). CREAR CLIENTE
+---
+
+(1) CREAR CLIENTE
+
+---
 
 `/api/v1/cliente/creacliente`
 
@@ -39,7 +51,11 @@ El servicio tiene las siguientes funcionalidades:
  "birthDate": Date("yyyy-mm-dd")
 }`
 
-(2). CONSULTAR CLIENTES
+---
+
+(2) CONSULTAR CLIENTES
+
+---
 
 `/api/v1/cliente/listclientes`
 
@@ -61,7 +77,11 @@ El servicio tiene las siguientes funcionalidades:
  "possibleDeathDate": Date("yyyy-mm-dd")
 }`
 
-(3). CONSULTAR KPI DE CLIENTES
+---
+
+(3) CONSULTAR KPI DE CLIENTES
+
+---
 
 `/api/v1/statistic/kpideclientes`
 
@@ -77,10 +97,7 @@ El servicio tiene las siguientes funcionalidades:
 
 `{
  "averageAge": Double,
- "lastName": String,
- "age", Integer,
- "birthDate": Date("yyyy-mm-dd"),
- "possibleDeathDate": Date("yyyy-mm-dd")
+ "standardDeviation": Double"
 }`
 
 PUERTO DE APLICACION
