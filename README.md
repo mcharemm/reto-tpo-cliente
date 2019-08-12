@@ -97,10 +97,7 @@ El servicio tiene las siguientes funcionalidades:
 
 `{
  "averageAge": Double,
- "lastName": String,
- "age", Integer,
- "birthDate": Date("yyyy-mm-dd"),
- "possibleDeathDate": Date("yyyy-mm-dd")
+ "standardDeviation": Double"
 }`
 
 PUERTO DE APLICACION
