@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "reto-intercorp-199e9",
+  "private_key_id": "77dfaf47f40e32dd889eeb3f287cf514320fecbf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDsS52IxFt4KJbP\n14WVC1IdxzLwkW3L7fEyeBLt7eNdzTm4EEFwHB5bmUE2tya+p/7x08qPTv4Jnqkt\noWx3JWLYblyhTuxnOI8la8qkQbaM/Z29LNhQgIPHidB5A1TVrrx00PDpsUttop6X\nt+x9H1yAdScDe+KqckD5I9iyfAFs97LDa9WSx3R5dG0OvQoB7TROAcLOMJRm/kQN\nZtnOsTiUnpWkUJJAdc9yKImzHt0EhW5dciX732P1n1OuEAWE+K8kkRz8qqz+EHYG\nyTFk6T8S2/Q373qlCFxRG4NBevg4mTR9KVtCMFjgj8h7bkrqhbV1yJQB+KIXXT9F\nJR+XCeEtAgMBAAECggEAMYJgZg0aSzFZ8/9ozkM6d+HKYwxdkHpw7I2rDa4n0voS\ni2XgiCBkHfYc611xoUXqzXl+Ogunf5V+RgDKDKbJMKbjAqtaLgB0Qbd1lHfuS1lC\nSSZRxoA+3DqccxaHGmSLuQAkUhqjPrvxdcGEK+07wPCK9Zhp9COPSIRBvZfs5osS\nk7AZbH3VNhGPceZFz+OG7eYjnpsm3nr5RYaTLA27A0uDapBhbZ1J7p15YR+4dvKw\nNNe3FtJ7AwWYUpa4tpO3UxG8RMLlfxu7DhMaE/4qgF2STTTm+eNEpZrGJcBTD+7F\nMGUIKRvHpGpKbjdU8o0QluufXzoKCS34GEtaZbq9swKBgQD7AU6aewDMj3zA/o1p\nTWHFgnMrKJdaVYPfToNOsxfcW84d/rfDh0ZCVrBR0zgFfNj5hxrsBXI3GnrbkTc7\nYWCh3tMWUxZRi0dhOkdrIrTZ1JAC+Tr7jkNoeUdR4iwyAKqzvenxcWdLhJJSMbj8\nHXPmRVVNl1nRbgcGesaAJ8qbSwKBgQDw/19nLFWxTXrrozPpaTXRJil4kGCgV79c\nDtMf0p8vXaJglW17D9OG9PHuUNc8YKjm58+ZEg3y0cp2YBxkzqzZqZz3GGkgxMPW\n5cQAdgwK0EgIkmGt/XAbOrbX+jSvv6E5bJazOIbkUmY9do8dMYmzmPXiY4wCKiI6\n36bhaVpyZwKBgCm3UeUCxGM7BbTdmYsCvVkiERn/KQhuZfhbCB+wTCrnZx49EzV/\n6gFkfvFadVkUIst11NedIBpgYELVo6ROzsyYR+TR8kejKj3SfcQkhIIffb/AxDjC\nsBlQ7rWBLW8yBSzSR2tFObGnWtomQWRFUNnYdBDtMpRIAQrmpM7vzhB5AoGAMyPN\nx+QFjylE40nvkyFLVUWG2Vmx13SnW86diIw2UWPKODqdT9bs6R+DUzH+aoaMcOtS\nB0ZohVV1ZCdC/zVIQqwWbezVKin28Nwy+nISXh0SnBcL+VLlfjG4aR5kHcNJYBkl\n5YQiQ8MkhPhqqCRB90WHL/I13KO6PcoF7KFhmxMCgYAadC+vjVRv9KRlYR8DyLn6\nPqWQ/Jv/PS8cGEGnlyKANJlCTGPYMT/W0W07ZKLKYfoxeRygN0YVuZUTpTdHR6dL\nCyOJ2rm6tpxP631Ps+fkL7yhb77nC6kI/Qx9eohXz+bOrrOoWRlRNiwpzuWP0Urn\numNqaWANOLsIyaz87TrPTg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-q9b5v@reto-intercorp-199e9.iam.gserviceaccount.com",
+  "client_id": "105289949435008991440",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-q9b5v%40reto-intercorp-199e9.iam.gserviceaccount.com"
+}

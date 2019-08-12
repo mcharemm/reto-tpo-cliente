@@ -19,5 +19,4 @@ public class StatisticsController {
     public Statistics printClientsKpi(){
         return service.getClientsKpi();
     }
-
 }
