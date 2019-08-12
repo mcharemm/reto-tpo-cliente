@@ -19,7 +19,7 @@ public class ClientDataController {
 
     @PostMapping("/creacliente")
     @ResponseStatus(HttpStatus.CREATED)
-    public Client createClient(@RequestBody Client client){
+    public Client createClient(@RequestBody Client client) throws Exception {
         return service.createClient(client);
     }
 

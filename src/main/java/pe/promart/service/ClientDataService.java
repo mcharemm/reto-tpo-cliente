@@ -6,7 +6,6 @@ import pe.promart.model.infoClient;
 import java.util.List;
 
 public interface ClientDataService {
-    Client createClient(Client client);
+    Client createClient(Client client) throws Exception;
     List<infoClient> retrieveClients();
 }
-

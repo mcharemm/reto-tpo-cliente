@@ -6,6 +6,7 @@ import pe.promart.logic.IncludePossibleDeathDate;
 import pe.promart.model.*;
 import pe.promart.repository.ClientDataRepository;
 import pe.promart.service.ClientDataService;
+import pe.promart.validation.ClientValidator;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -17,8 +18,12 @@ public class ClientDataServiceImplementation implements ClientDataService {
     ClientDataRepository clientRepository;
 
     @Override
-    public Client createClient(Client client){
-        return clientRepository.push(client);
+    public Client createClient(Client client) throws Exception {
+        if (ClientValidator.validate(client)){
+            return clientRepository.push(client);
+        } else {
+            throw new Exception("Not valid object Client");
+        }
     }
 
     @Override

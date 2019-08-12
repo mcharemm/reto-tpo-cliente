@@ -7,6 +7,9 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.nio.charset.Charset;
 import java.util.Date;
@@ -22,9 +25,17 @@ public class Client implements Serializable {
     @FirebaseId
     @Id
     private String id;
+    @NotNull
+    @NotBlank
+    @NotEmpty
     private String name;
+    @NotNull
+    @NotBlank
+    @NotEmpty
     private String lastName;
+    @NotNull
     private int age;
+    @NotNull
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birthDate;
 
