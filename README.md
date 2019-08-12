@@ -39,6 +39,8 @@ El servicio tiene las siguientes funcionalidades:
  "birthDate": Date("yyyy-mm-dd")
 }`
 
+---
+
 (2) CONSULTAR CLIENTES
 
 `/api/v1/cliente/listclientes`
@@ -60,6 +62,8 @@ El servicio tiene las siguientes funcionalidades:
  "birthDate": Date("yyyy-mm-dd"),
  "possibleDeathDate": Date("yyyy-mm-dd")
 }`
+
+---
 
 (3) CONSULTAR KPI DE CLIENTES
 
