@@ -1,0 +1,6 @@
+retotpoclientes.iml
+target/
+/src/main/resources/*
+!/src/main/resources/creacliente?.json
+.*
+!/.gitignore
